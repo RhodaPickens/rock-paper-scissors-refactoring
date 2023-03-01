@@ -25,8 +25,11 @@ let ties = 0;
 
 /***************************** HELPER FUNCTIONS ******************************/
 function printHelp() {
-    console.log("  Type 'r' for Rock\n  Type 'p' for Paper\n  Type 's' for Scissors");
-    console.log("  Type 'q' to quit\n  Type 'h' for a list of valid commands\n");
+  console.log("  Type 'r' for Rock");
+  console.log("  Type 'p' for Paper");
+  console.log("  Type 's' for Scissors");
+  console.log("  Type 'q' to quit");
+  console.log("  Type 'h' for a list of valid commands\n");
 }
 
 function getWinner(move1, move2) {
